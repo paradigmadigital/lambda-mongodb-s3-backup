@@ -1,0 +1,24 @@
+{
+  "name": "lambda-mongodb-s3-backup",
+  "version": "1.0.0",
+  "description": "This is simple AWS Lambda function that uses mongodump to backup a MongoDB database.",
+  "main": "index.js",
+  "dependencies": {
+
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeAguirreLeon/lambda-mongodb-s3-backup"
+  },
+  "author": "Jorge Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeAguirreLeon/lambda-mongodb-s3-backup"
+  },
+  "homepage": "https://github.com/JorgeAguirreLeon/lambda-mongodb-s3-backup#readme"
+}
